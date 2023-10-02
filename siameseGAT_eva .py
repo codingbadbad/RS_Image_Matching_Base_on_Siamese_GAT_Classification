@@ -116,7 +116,7 @@ model = SiameseGAT(input_feature, hiddne_chanel, fc_chanel)
 model = model.to(device)
 
 # model.load_state_dict(torch.load('./saved_models/model_epoch_34 +score 199.27833817864698.pt'))
-model.load_state_dict(torch.load('./saved_models/model_epoch_26 +score 995.74358937906.pt'))
+model.load_state_dict(torch.load('./saved_models/model_epoch_79 +score 996.4472422164132.pt'))
 
 model.eval()
 bias = 0.08
