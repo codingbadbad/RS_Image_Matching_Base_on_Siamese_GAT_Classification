@@ -119,7 +119,7 @@ model = model.to(device)
 model.load_state_dict(torch.load('./saved_models/model_epoch_79 +score 996.4472422164132.pt'))
 
 model.eval()
-bias = 0.08
+bias = -0.08
 
 
 def evaluate(model, train_loader, filename="model_outputs_labels.xlsx"):
